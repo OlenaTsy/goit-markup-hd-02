@@ -7,11 +7,11 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     
     /* identical to box height */
     letter-spacing: 0.03em;
-    
+    color: #2196F3;
     color: #000000;}
 
 .link-nav {
@@ -22,21 +22,49 @@ line-height: 1,14;
 letter-spacing: 0.02em;
 color:#212121;}
 
-.link-studio:hover,
-.link-studio:focus {color:#2196F3;}
+.link-nav:hover,
+.link-nav:focus {color:#2196F3;}
 
-.header-mail,
-.header-tel {
-font-family:'Roboto',
-sans-serif;
+.header-contacts{
+font-family:'Roboto',sans-serif;
 font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
 letter-spacing: 0.02em;
 color:#757575;}
 
-.header-mail:hover,
-.header-mail:focus {color: #2196F3;}
+.header-contacts:hover,
+.header-contacts:focus
+ {color: #2196F3;}
+
+ /*======HERO=====*/
+.hero-title{
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;}
+
+ .hero-btn
+ {font-family: 'Roboto' sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 1,87;
+
+/* identical to box height, or 188% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;}
+
 
 
 
