@@ -145,6 +145,7 @@ letter-spacing: 0.03em;
 color: #757575;}
 
 /*======footer=====*/
+
 /*.footer-section {position: absolute;
 width: 1600px;
 height: 252px;
@@ -170,3 +171,90 @@ line-height: 0,58;
 letter-spacing: 0.03em;
 color:rgba(255, 255, 255, 0.6);
 background: #2F303A;}
+
+
+/*======Портфолио=======*/
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/*=======header======*/
+.link-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+
+.link-nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+    color: #2196F3;
+}
+
+.link-current {
+    color: #2196F3
+}
+
+.header-contacts {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+    color: #2196F3;
+}
+/*======FooterПортфолио====^/
+
+/*.footer-section {position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+
+background: #2F303A;}*/
+.link-adress {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0, 58;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2F303A;
+}
+
+.footer-contacts {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0, 58;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background: #2F303A;
+}
