@@ -174,7 +174,35 @@ background: #2F303A;}
 {color:var(--acсent-color)}
 
 /*======Портфолио=======*/
+.main-btn 
+{font-family: 'Roboto', sans-serif;
+font-style: 500;
+font-size: 16px; 
+line-height:0.61;
+letter-spacing: 3%;
+background-color:#F5F4FA}
+.main-btn:hover,
+.main-btn:focus 
+{color: #FFFFFF;
+background-color: var(--acсent-color);}
 
+.portfolio-title
+{font-family: 'Roboto', sans-serif;
+font-style: 700; 
+font-size: 18px;
+line-height: 0,5;
+/*text-align: Left;
+vertical-align: Top; */
+letter-spacing: 6%;}
+
+.portfolio-about
+{font-family: 'Roboto', sans-serif;
+font-style: 400;
+font-size: 16px; 
+line-height: 0,53;
+/*text-align: left;
+vertical-align: top;*/
+letter-spacing: 3%;}
 
 
 
