@@ -8,11 +8,15 @@
 body
 {color:var(--primary-text-color);
 background-color:var(--background-color);
-}
+font-family: 'Roboto',
+sans-serif;}
+
+button {cursor: pointer;}
+
 .title {color: var(--title-text-color);}
 .list {list-style: none;}
-
 .link {text-decoration: none;}
+
 /*=======header======*/
 .link-logo 
 {font-family: 'Raleway', sans-serif;
@@ -54,104 +58,72 @@ color: var(--primary-text-color);}
 
 
 .hero-title
-{font-family: 'Roboto', sans-serif;
-font-weight: 900;
+{font-weight: 900;
 font-size: 44px;
 line-height: 1,36;
-/*text-align: center;*/
+text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
 background-color: #2F303A;}
 
  .hero-btn
-{font-family: 'Roboto', sans-serif;
-font-weight: 700;
+{font-weight: 700;
 font-size: 16px;
 line-height: 1,88;
-/*display: flex;*/
 letter-spacing: 0.06em;
 color: #FFFFFF;
-background-color: #2196F3;}
-.hero-btn:hover,
-.hero-btn:focus 
-{color:var(--background-color)}
+background-color: var(--acсent-color);}
 
 /*=======Section1=======*/
 
 .list-section-name 
-{font-family: 'Roboto', sans-serif;
-font-weight: 700;
+{font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;}
 
 .list-content 
-{font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 0,17;
+{font-size: 14px;
+line-height: 1,7;
 letter-spacing: 0.03em;}
 
 /*=====Section2====*/
 .about-title 
-{font-family: 'Roboto', sans-serif;
-font-weight: 700;
+{font-weight: 700;
 font-size: 36px;
-line-height: 0,86;
-/*text-align: center;*/
+line-height: 1,17;
+text-align: center;
 letter-spacing: 0.03em;}
 
 /*=====team=====*/
 
-
-/*.team {position: absolute;
-width: 1600px;
-height: 648px;
-left: 0px;
-top: 1449px;
-
-background: #F5F4FA;}*/
-
 .team-title
-{font-family: 'Roboto', sans-serif;
-font-weight: 700;
+{font-weight: 700;
 font-size: 36px;
-line-height: 0,86;
-/*text-align: center;*/
+line-height: 1,17;
+text-align: center;
 letter-spacing: 0.03em;}
 
 .team-gallery-name
-{font-family: 'Roboto', sans-serif;
-font-weight: 500;
+{font-weight: 500;
 font-size: 16px;
-line-height: 0,84;
+line-height: 1,17;
 /*text-align: center;*/
 letter-spacing: 0.03em;}
 
 .team-gallery-direction
-{font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 0,84;
+{font-size: 16px;
+line-height: 1,17;
 /*text-align: center;*/
 letter-spacing: 0.03em;}
 
 /*======footer=====*/
 
-/*.footer-section {position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
-
-background: #2F303A;}*/
 .footer-address
-{font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 0,58;
+{font-size: 14px;
+line-height: 1,71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 background: #2F303A;
@@ -161,10 +133,8 @@ background: #2F303A;
 {color:var(--acсent-color);}
 
 .footer-contacts
-{font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 0,58;
+{font-size: 14px;
+line-height: 1,71;
 letter-spacing: 0.03em;
 color:rgba(255, 255, 255, 0.6);
 background: #2F303A;}
@@ -175,33 +145,26 @@ background: #2F303A;}
 
 /*======Портфолио=======*/
 .main-btn 
-{font-family: 'Roboto', sans-serif;
-font-style: 500;
+{font-style: 500;
 font-size: 16px; 
-line-height:0.61;
+line-height: 1,62;
 letter-spacing: 3%;
-background-color:#F5F4FA}
+background-color:#F5F4FA;}
+
 .main-btn:hover,
 .main-btn:focus 
 {color: #FFFFFF;
 background-color: var(--acсent-color);}
 
 .portfolio-title
-{font-family: 'Roboto', sans-serif;
-font-style: 700; 
+{font-style: 700; 
 font-size: 18px;
-line-height: 0,5;
-/*text-align: Left;
-vertical-align: Top; */
+line-height: 2;
 letter-spacing: 6%;}
 
 .portfolio-about
-{font-family: 'Roboto', sans-serif;
-font-style: 400;
-font-size: 16px; 
-line-height: 0,53;
-/*text-align: left;
-vertical-align: top;*/
+{font-size: 16px; 
+line-height: 1,87;
 letter-spacing: 3%;}
 
 
